@@ -13,6 +13,7 @@ export default function HomeScreen() {
         </Text>
         <Button title="Go to Counter" onPress={() => nav.navigate('Counter')} />
         <Button title="Go to About" onPress={() => nav.navigate('About')} />
+        <Button title="Go to Adoption" onPress={() => nav.navigate('Adoption')} />
         {/* <Button title="Go Back" onPress={ () => nav.goBack() } /> */}
         <MyFirstComponent />
       </ScrollView>
