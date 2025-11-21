@@ -8,6 +8,7 @@ import HomeScreen from './src/screens/HomeScreen';
 import AboutScreen from './src/screens/AboutScreen';
 import ContactScreen from './src/screens/ContactScreen';
 import AdoptionScreen from './src/screens/AdoptionScreen';
+import GalleryScreen from './src/screens/GalleryScreen';
 
 // Create the stack
 const Stack = createNativeStackNavigator();
@@ -21,6 +22,7 @@ export default function App() {
         <Stack.Screen name="About" component={AboutScreen} />
         <Stack.Screen name="Contact" component={ContactScreen} />
         <Stack.Screen name="Adoption" component={AdoptionScreen} />
+        <Stack.Screen name="Gallery" component={GalleryScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
